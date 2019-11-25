@@ -101,8 +101,6 @@ int STC3100_WriteByte(uint8_t u8_Register, uint8_t u8_value)
 
 	pu8_data[0]=u8_value; 
 	res = STC3100_Write(1, u8_Register, pu8_data);
-	
-	return res;
 }
 
 
